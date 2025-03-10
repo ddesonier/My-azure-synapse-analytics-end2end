@@ -144,7 +144,7 @@ resource r_synapseWorkspace 'Microsoft.Synapse/workspaces@2021-06-01' = {
       }
       nodeSize: synapseSparkPoolNodeSize
       nodeSizeFamily:'MemoryOptimized'
-      sparkVersion: '.4'
+      sparkVersion: '3.4.1'
       autoScale:{
         enabled:true
         minNodeCount: synapseSparkPoolMinNodeCount
